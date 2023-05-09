@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Contact Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" />
+    <link href="css/all.min.css" rel="stylesheet" />
+	<link href="css/templatemo-style.css" rel="stylesheet" />
+	<link rel="shortcut icon" href="/img/logoal.png" type="image/x-icon">
+</head>
+
+<body> 
+
+	<div class="container">
+	<!-- Top box -->
+		<!-- Logo & Site Name -->
+		<div class="placeholder">
+			<div class="parallax-window" data-parallax="scroll" data-image-src="img/es-pisang-ijo-place.png">
+				<div class="tm-header">
+					<div class="row tm-header-inner">
+						<div class="col-md-6 col-12">
+							<img src="img/logoal.png" alt="Logo" class="tm-site-logo" /> 
+							<div class="tm-site-text-box">
+								<h1 class="tm-site-title">ES PISANG</h1>
+								<h6 class="tm-site-description">IJO BADJO</h6>	
+							</div>
+						</div>
+						<nav class="col-md-6 col-12 tm-nav">
+							<ul class="tm-nav-ul">
+								<li class="tm-nav-li"><a href="index.html" class="tm-nav-link">Home</a></li>
+								<li class="tm-nav-li"><a href="contact.html" class="tm-nav-link active">Contact</a></li>
+							</ul>
+						</nav>	
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<main>
+			<header class="row tm-welcome-section">
+				<h2 class="col-12 text-center tm-section-title">Contact Page</h2>
+				<p class="col-12 text-center">Untuk pemesanan bisa langsung chat ke whatsapp di bawah ini, kami juga menerima pesanan seperti : Acara Nikahan, Ulang Tahun, Syukuran Dan lain - lain.
+				</p>
+			</header>
+
+			<div class="tm-container-inner-2 tm-contact-section">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="tm-address-box">
+							<h4 class="tm-info-title tm-text-success">Alamat Outlet</h4>
+							<address>
+								Jl. MT. Haryono, Cigadung, Kec. Subang, Kabupaten Subang, Jawa Barat 41211
+								Depan Tokma Cadika
+							</address>
+							<a href="" class="tm-contact-link">
+								<i class="fas fa-phone tm-contact-icon"></i>0821-1621-8872
+							</a>
+							<a href="" class="tm-contact-link">
+								<i class="fas fa-envelope tm-contact-icon"></i>cigadung.ali123@gmail.com
+							</a>
+							<div class="tm-contact-social">
+								<a href="https://wa.me/6282116218872" class="tm-social-link"><i class="fab fa-whatsapp tm-social-icon"></i></a>
+								<a href="https://instagram.com/pisang.ijo_badjo.subang?igshid=NTc4MTIwNjQ2YQ==" class="tm-social-link"><i class="fab fa-instagram tm-social-icon"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+            
+<!-- How to change your own map point
+	1. Go to Google Maps
+	2. Click on your location point
+	3. Click "Share" and choose "Embed map" tab
+	4. Copy only URL and paste it within the src="" field below
+-->
+			<div class="tm-container-inner-2 tm-map-section">
+				<div class="row">
+					<div class="col-12">
+						<div class="tm-map">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d495.46137127586087!2d107.74959859723744!3d-6.560637412459189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e693d9d88b9790d%3A0xa845ee18e7c05d9!2sEs%20Pisang%20Ijo%20Badjo!5e0!3m2!1sid!2sid!4v1683547582210!5m2!1sid!2sid" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<footer class="tm-footer text-center">
+			<p>Copyright &copy; 2023 Es Pisang Ijo Badjo </p>
+		</footer>
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/parallax.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			var acc = document.getElementsByClassName("accordion");
+			var i;
+			
+			for (i = 0; i < acc.length; i++) {
+			  acc[i].addEventListener("click", function() {
+			    this.classList.toggle("active");
+			    var panel = this.nextElementSibling;
+			    if (panel.style.maxHeight) {
+			      panel.style.maxHeight = null;
+			    } else {
+			      panel.style.maxHeight = panel.scrollHeight + "px";
+			    }
+			  });
+			}	
+		});
+	</script>
+</body>
+</html>
